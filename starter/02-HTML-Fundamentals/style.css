@@ -1,0 +1,120 @@
+ body{
+    background-color: #dddfef;
+    font-family: sans-serif;
+      color: #3ea2b1;
+      border-top: 10px solid #3ea2b1;
+ }
+
+ .main-header {
+  padding: 40px;
+  background-color: aqua;
+}
+
+
+h1
+{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+ 
+}
+  
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}   
+h3
+{
+
+    font-size: 1.2em;
+}   
+p, li
+{
+  
+    font-size: 1em;
+    line-height: 1.5;
+}
+footer p{
+    font-size: 16px;
+}
+header p{
+    font-size: 18px;
+    color: #555;
+
+}
+#man{
+    color: #007BFF;
+    font-weight: bold;
+
+}
+.love{
+    color: #333;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+}
+aside h4{
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.related-posts{
+
+    list-style-type: none;
+    padding: 0;
+}
+aside{
+    border-top: 5px solid;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding:50px 0;
+    width: 500px;
+    background-color: #cdc4c4;
+ 
+}
+/* article p:first-child{
+   color: blueviolet;
+} */
+ /* styling hyperlink */
+ /* a{
+    color: #09904d;
+    text-decoration: none;
+ } */
+ a:link{
+    color: #09904d;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ a:visited{
+    color: #09904d;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ a:hover{
+    color: #ff6347;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ a:active{
+    background-color: #555;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+
+/* 
+selecting a element with the pseudo class of link  */
+nav{
+    font-size: 18px;
+}
+
+.post-img{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+
+}
